@@ -49,9 +49,6 @@ const DialogContent = React.forwardRef(({ ...props }, forwardedRef) => {
 
   return (
     <div
-      aria-modal="true"
-      role="dialog"
-      tabIndex={-1}
       {...props}
       ref={forwardedRef}
       data-dialog-content=""
